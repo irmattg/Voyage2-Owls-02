@@ -1,0 +1,118 @@
+header {
+  padding: 154px 0 100px;
+}
+
+.bg-primary {
+  background-image: url("https://images.unsplash.com/photo-1500015139098-84b51c349a60?auto=format&fit=crop&w=1950&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")!important;
+  background-size: cover;
+}
+
+.lead {
+  font-size: 15px;
+  color: #fff;
+}
+
+.btn-secondary {
+  border-radius: 25px;
+  font-size: 13px;
+  background-color: #fff;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 75px 0;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-weight: lighter;
+}
+
+.mx-auto h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.nav-item {
+  font-size: 12px;
+  border: 1px #fff solid;
+  border-radius: 25px;
+  padding: 1px 7px;
+}
+
+#paypal-slack {
+  height: 300px;
+}
+
+.msg-1, .msg-2, .msg-3 {
+  background-color: #f4f4f4;
+  width: 400px;
+  height: 55px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-left: 50px;
+}
+
+.inner-1, .inner-2, .inner-3 {
+  background-color: #fff;
+  width: 300px;
+  height: 36px;
+  margin-left: 60px;
+  border-radius: 3px;
+  padding-top:5px;
+  padding-left: 10px;
+  font-size:12px;
+  text-align: left;
+}
+
+.gen-bullet {
+  width: 32%;
+  display: inline-block;
+}
+
+.gen-bullet .bullet-num {
+  vertical-align: top;
+  width: 35px;
+  height: 3 5px;
+  border-radius: 100%;
+  border: 1px solid #d8d8d8;
+  text-align: center;
+  padding-top: 6px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.btn-primary {
+  margin-top: 40px;
+}
+
+.paypal-cmd {
+  background-color: #f5f7fa;
+  border: 1px solid #cbd2d6;
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.text-white {
+  color: #000!important;
+  font-size: 10px;
+}
+
+.ftr-list {
+  list-style-type: none;
+}
+
+.ftr-list li {
+  display: inline;
+  padding: 10px;
+  color: #000;
+  font-size: 12px;
+}
