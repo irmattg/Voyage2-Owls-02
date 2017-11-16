@@ -1,7 +1,11 @@
 {
-  "title": "Paypal",
+  "title": "Paypal for Slack",
   "name": "startbootstrap-scrolling-nav",
-  "version": "4.0.0-beta.2",
+  "description": "Paypal for Slack",
+  "homepage": "https://chingu-coders.github.io/Voyage2-Owls-02/",
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build"
+  },
 
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
@@ -10,6 +14,8 @@
   },
   "devDependencies": {
     "browser-sync": "2.18.13",
+    "gh-pages": "^1.0.0",
     "gulp": "^3.9.1"
   }
 }
+

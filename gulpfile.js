@@ -39,3 +39,17 @@ gulp.task('dev', ['browserSync'], function() {
   gulp.watch('js/*.js', browserSync.reload);
   gulp.watch('*.html', browserSync.reload);
 });
+
+
+
+
+var gulp        = require('gulp');
+var deploy      = require('gulp-gh-pages');
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
