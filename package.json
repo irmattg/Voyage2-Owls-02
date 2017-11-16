@@ -1,25 +1,8 @@
 {
-  "title": "Scrolling Nav",
+  "title": "Paypal",
   "name": "startbootstrap-scrolling-nav",
   "version": "4.0.0-beta.2",
-  "description": "Template built with Bootstrap",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/scrolling-nav",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/issues",
-    "email": "feedback@startbootstrap.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav.git"
-  },
+
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "jquery": "^3.2.1",
